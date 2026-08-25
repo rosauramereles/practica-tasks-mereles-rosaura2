@@ -1,0 +1,27 @@
+{
+  "name": "practica-tasks-mereles-rosaura2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosauramereles/practica-tasks-mereles-rosaura2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rosauramereles/practica-tasks-mereles-rosaura2/issues"
+  },
+  "homepage": "https://github.com/rosauramereles/practica-tasks-mereles-rosaura2#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.2",
+    "sequelize": "^6.37.8"
+  }
+}
