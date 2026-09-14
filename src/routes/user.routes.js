@@ -1,4 +1,11 @@
 import { Router } from "express";
+import {
+    createUser,
+    deleteUser, 
+    getAllUsers, 
+    getUserById, 
+    updateUser
+    } from "../controllers/user.controller.js";
 
 export const userRouter = Router();
 
@@ -6,6 +13,6 @@ export const userRouter = Router();
 userRouter.post("/users",createUser);
 //toda la funcionalidad de la ruta
 userRouter.get("/users",getAllUsers);
-userRouter.get("/users/:id", getUserDyId);
+userRouter.get("/users/:id", getUserById);
 userRouter.put("/users/:id", updateUser);
-userRouter.delete("users/:id", deteleUser);
+userRouter.delete("users/:id", deleteUser);
